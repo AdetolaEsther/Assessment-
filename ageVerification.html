@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ageVerification</title>
+    <link rel="stylesheet" href="ageVer.css">
+  </head>
+  <body>
+    <div class="general">   
+         <div class="container">
+        <h2>Age Verification</h2>
+        <label for="userAge" id="inputAge">Enter your age:</label>
+        <input type="number" id="userAge" name="userAge">
+       
+      </div>
+      <button id="checkAgeBtn">Check Age</button>
+      <div id="message">
+
+      </div>
+
+    </div>
+
+    <script>
+        document.getElementById('checkAgeBtn').addEventListener('click', function() {
+    var userAge = parseInt(document.getElementById('userAge').value);
+    var messageElement = document.getElementById('message');
+
+    if (isNaN(userAge)) {
+        messageElement.textContent = 'Please enter a valid age!!!';
+    } else if (userAge > 17) {
+        messageElement.textContent = 'WELCOME!';
+    } else {
+        messageElement.textContent = 'Access Restricted!!!';
+    }
+});
+
+  
+  
+    </script>
+  </body>
+
+  </html>

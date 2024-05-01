@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto';
+    /* align-items: center; */
+    /* margin: auto; */
+    color: azure;
+    /* background-color: rgb(82, 80, 80); */
+
+
+}
+.container{
+   padding: 50px;
+   background-color: rgba(69, 91, 83, 0.599);
+   border-radius: 10px;
+   text-align: center;
+   
+}
+.container h2{
+    font-size: 50px;
+    color: rgb(156, 197, 234);
+}
+.container label{
+    font-size: 20px;
+    color: rgb(156, 197, 234);
+}
+input{ 
+    border-radius: 5px;
+    cursor: pointer;
+    height: 20px;
+    color: black;
+    height: 30px;
+    width: 300px;
+}
+.general {
+    background-image: linear-gradient(to bottom, rgba(16, 15, 15, 0.5), rgba(31, 28, 28, 0.5) ), url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_21/3359781/200521-college-student-laptop-stock-cs-419p.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+
+
+#checkAgeBtn {
+    padding: 10px; 
+    font-size: 16px; 
+    margin-top: 20px;
+    background-color: rgba(69, 91, 83, 0.63); ;
+    cursor: pointer;
+    border-radius: 10px;
+    /* color: rgb(25, 31, 36); */
+}
+#checkAgeBtn:hover{
+    background-color:rgba(6, 4, 0, 0.419) ;
+}
+#message{
+    font-size:50px;
+    padding: 30px;
+    font-style: italic;
+    color: rgba(225, 232, 235, 0.874);
+    text-decoration:underline;
+    background-color: rgba(11, 11, 11, 0.466);
+    margin: 20px;
+    border-radius: 15px;
+}

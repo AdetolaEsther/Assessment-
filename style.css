@@ -1,0 +1,87 @@
+*{
+    font-family: 'Roboto';
+
+}
+h1::before{
+    content: "";
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.image-container{
+    /* background-image: url(https://www.ingeniux.com/Images/Blog/Blog%20Images/Blog%20Front/web-cms-student-portal-main.jpg) ;  */
+    background-image: linear-gradient(to bottom, rgba(16, 15, 15, 0.5), rgba(31, 28, 28, 0.5) ), url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_21/3359781/200521-college-student-laptop-stock-cs-419p.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height:100% ;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 5px;
+
+
+}
+.image-container p{
+    font-size: 15px;
+    color: darkgrey;
+}
+.image-container h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.text{
+    padding: 20px;
+}
+.image-container h1{
+    padding: 40px;
+}
+
+.general{
+    background-color: rgb(69, 91, 83);
+    border-radius: 5px;
+    height: 50dvh;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    text-align: center;
+    /* change width back to 50 when done */
+    width: 100%;
+    max-width: 100%;
+    
+}
+.text-container{
+ color: rgb(21, 15, 15);
+ /* justify-content:center; */
+ margin: auto;
+
+}
+.text-container img{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+.text-container button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(16, 76, 52);
+    color: rgb(193, 181, 181);
+    cursor: pointer;
+}
+.text-container button:hover {
+    background-color: rgb(73, 82, 73);
+  }
+
+.name-container, .mail-container {
+    padding: 10px;
+    border: none;
+    /* border-radius: 5px; */
+  }
+  
+  input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+
+  }
